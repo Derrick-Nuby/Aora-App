@@ -14,14 +14,17 @@
     },
     "ios": {
       "supportsTablet": true,
-      "package": "com.derricknuby.aora"
+      "runtimeVersion": {
+        "policy": "appVersion"
+      }
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.derricknuby.aora"
+      "package": "com.derricknuby.aora",
+      "runtimeVersion": "1.0.0"
     },
     "web": {
       "bundler": "metro",
@@ -33,6 +36,14 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "37963940-74e4-4ad2-8e51-3c725f492802"
+      }
+    },
+    "updates": {
+      "url": "https://u.expo.dev/37963940-74e4-4ad2-8e51-3c725f492802"
     }
   }
 }
